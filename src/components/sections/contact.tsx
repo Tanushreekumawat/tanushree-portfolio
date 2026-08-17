@@ -33,6 +33,7 @@ interface FormErrors {
   message?: string;
 }
 
+
 export function Contact() {
   const formRef = useRef<HTMLFormElement>(null);
   const [form, setForm] = useState<FormState>({
